@@ -1,5 +1,6 @@
 # Python
 .venv/
+venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -7,15 +8,24 @@ __pycache__/
 
 # Local data: run store, workspaces and screenshots
 data/
+*.db
+*.sqlite
+*.sqlite3
 
-# Secrets
-server/.env
+# Secrets — never commit real environment files, but keep examples
 .env
-.env.local
+.env.*
+!.env.example
+!**/.env.example
+server/.env
 
 # Web
+node_modules/
+dist/
+build/
 web/node_modules/
 web/dist/
+.vercel/
 npm-debug.log*
 
 # Logs and editor noise
