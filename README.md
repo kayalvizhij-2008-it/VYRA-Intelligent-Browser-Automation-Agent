@@ -1,6 +1,7 @@
 # VYRA
 
-**Live:** [https://vyra-five-chi.vercel.app](https://vyra-five-chi.vercel.app) · **API:** [https://vyra-api-wpc0.onrender.com/api/health](https://vyra-api-wpc0.onrender.com/api/health) · **Repo:** [github.com/kayalvizhij-2008-it/VYRA-Intelligent-Browser-Automation-Agent](https://github.com/kayalvizhij-2008-it/VYRA-Intelligent-Browser-Automation-Agent)
+**Live:** [https://vyra-five-chi.vercel.app](https://vyra-five-chi.vercel.app) · **API:** [https://vyra-api-wpc0.onrender.com/api/health](https://vyra-api-wpc0.onrender.com/api/health) · **Repo:** [github.com/kayalvizhij-2008-it/VYRA-Intelligent-Browser-Automation-Agent](https://github.com/kayalvizhij-2008-it/VYRA-Intelligent-Browser-Automation-Agent)  
+**Repository overview:** [docs/PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md) — the original platform overview, preserved from the target repository.
 
 > The Render instance is currently the **free 512 MB plan with an ephemeral filesystem**, because the Render account has no payment method. The API, Chromium binary detection, CORS and the frontend connection are live, but production browser runs need the **Standard (2 GB) plan** and a **1 GB disk mounted at `/data`** (`render.yaml`). No provider key is configured on the deployed API, so a run returns a clear `provider_not_configured` error until one is added in Render's environment.
 
